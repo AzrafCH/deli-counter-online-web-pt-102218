@@ -14,8 +14,8 @@ else
  end
 end
 
-def take_a_number()
-  
+def take_a_number(array, name)
+  array.push(name)
 end
 
 def now_serving()
