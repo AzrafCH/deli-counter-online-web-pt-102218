@@ -8,7 +8,7 @@ else
  say = "The line is currently:"
  
  array.each_with_index do |value, index|
-   say += "{"
+   say += "#{index"
 end
 
 def take_a_number(katz_deli, name)
