@@ -7,7 +7,7 @@ puts  "The line is currently empty."
 else
  say = "The line is currently:"
  
- array.each_with_index
+ array.each_with_index do |
 end
 
 def take_a_number(katz_deli, name)
