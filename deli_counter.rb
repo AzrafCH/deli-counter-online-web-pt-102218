@@ -10,7 +10,8 @@ else
  array.each_with_index do |value, index|
    say += "#{index.to_i+1}. #{value}"
  end
- puts 
+ puts "#{say}"
+ end
 end
 
 def take_a_number(katz_deli, name)
