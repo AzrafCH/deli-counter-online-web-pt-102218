@@ -3,7 +3,9 @@ katz_deli = []
 
 def line(array)
 if array.length == 0 
-  "The line is currently empty."
+puts  "The line is currently empty."
+else
+  "The line is currently:"
 end
 
 def take_a_number(katz_deli, name)
