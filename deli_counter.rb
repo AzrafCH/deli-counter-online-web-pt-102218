@@ -25,4 +25,5 @@ def now_serving(array)
 if array.empty? == TRUE
   puts "There is nobody waiting to be served!"
   elsif array.empty? == false 
+  puts "Currently serving "
 end 
